@@ -1,7 +1,6 @@
 
 """Program to count the number of words in a file using pyspark."""
 
-
 from pyspark.sql import SparkSession
 import constants as constants
 from operator import add 
@@ -61,16 +60,4 @@ if __name__ == '__main__':
 		for key,value in word_counts:
 			print("{} - {}".format(key,value))
 		
-
-
-
-
-
-
-
-
-
-
-
-
 
